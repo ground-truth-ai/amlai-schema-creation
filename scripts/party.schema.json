@@ -1,0 +1,129 @@
+[
+    {
+      "mode": "REQUIRED",
+      "name": "party_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "validity_start_time",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "is_entity_deleted",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "source_system",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "type",
+      "type": "STRING"
+    },
+    {
+      "name": "birth_date",
+      "type": "DATE"
+    },
+    {
+      "name": "establishment_date",
+      "type": "DATE"
+    },
+    {
+      "name": "occupation",
+      "type": "STRING"
+    },
+    {
+      "name": "gender",
+      "type": "STRING"
+    },
+    {
+      "fields": [
+        {
+          "mode": "REQUIRED",
+          "name": "region_code",
+          "type": "STRING"
+        }
+      ],
+      "mode": "REPEATED",
+      "name": "nationalities",
+      "type": "RECORD"
+    },
+    {
+      "fields": [
+        {
+          "mode": "REQUIRED",
+          "name": "region_code",
+          "type": "STRING"
+        }
+      ],
+      "mode": "REPEATED",
+      "name": "residencies",
+      "type": "RECORD"
+    },
+    {
+      "name": "exit_date",
+      "type": "DATE"
+    },
+    {
+      "name": "join_date",
+      "type": "DATE"
+    },
+    {
+      "fields": [
+        {
+          "fields": [
+            {
+              "mode": "REQUIRED",
+              "name": "units",
+              "type": "INTEGER"
+            },
+            {
+              "mode": "REQUIRED",
+              "name": "nanos",
+              "type": "INTEGER"
+            },
+            {
+              "mode": "REQUIRED",
+              "name": "currency_code",
+              "type": "STRING"
+            }
+          ],
+          "name": "start_amount",
+          "type": "RECORD"
+        },
+        {
+          "fields": [
+            {
+              "mode": "REQUIRED",
+              "name": "units",
+              "type": "INTEGER"
+            },
+            {
+              "mode": "REQUIRED",
+              "name": "nanos",
+              "type": "INTEGER"
+            },
+            {
+              "mode": "REQUIRED",
+              "name": "currency_code",
+              "type": "STRING"
+            }
+          ],
+          "name": "end_amount",
+          "type": "RECORD"
+        }
+      ],
+      "name": "assets_value_range",
+      "type": "RECORD"
+    },
+    {
+      "name": "civil_status_code",
+      "type": "STRING"
+    },
+    {
+      "name": "education_level_code",
+      "type": "STRING"
+    }
+  ]
