@@ -1,0 +1,36 @@
+[
+    {
+      "mode": "REQUIRED",
+      "name": "party_supplementary_data_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "validity_start_time",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "is_entity_deleted",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "source_system",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "party_id",
+      "type": "STRING"
+    },
+    {
+      "fields": [
+        {
+          "mode": "REQUIRED",
+          "name": "value",
+          "type": "FLOAT"
+        }
+      ],
+      "name": "supplementary_data_payload",
+      "type": "RECORD"
+    }
+  ]

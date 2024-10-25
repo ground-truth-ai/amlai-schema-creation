@@ -1,0 +1,27 @@
+[
+    {
+      "mode": "REQUIRED",
+      "name": "risk_case_event_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "event_time",
+      "type": "TIMESTAMP"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "type",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "party_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "REQUIRED",
+      "name": "risk_case_id",
+      "type": "STRING"
+    }
+  ]
